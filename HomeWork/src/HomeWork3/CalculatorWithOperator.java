@@ -36,8 +36,9 @@ public class CalculatorWithOperator {
      * @return
      */
     public double modul(double number) {
-        return (-1 * number);
+        return (number < 0) ? number : (-number);
     }
+
 
     public double theSqrt(double number) {
         return Math.sqrt(number);
